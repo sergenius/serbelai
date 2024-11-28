@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "portfolio": "Portfólio",
+    "about": "Sobre",
+    "contact": "Contato",
+    "contactUs": "Contate-nos"
+  },
+  "hero": {
+    "title": "Transforme seu Negócio com Soluções de IA",
+    "subtitle": "Desbloqueie o poder da inteligência artificial com nossos serviços de consultoria especializada. Ajudamos empresas a inovar, otimizar e escalar através de soluções de IA de ponta.",
+    "getStarted": "Começar",
+    "viewPortfolio": "Ver Portfólio"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções abrangentes de IA personalizadas para transformar seu negócio e impulsionar a inovação",
+    "items": {
+      "strategy": {
+        "title": "Desenvolvimento de Estratégia IA",
+        "description": "Roteiros de IA personalizados alinhados com seus objetivos de negócio."
+      },
+      "custom": {
+        "title": "Soluções IA Personalizadas",
+        "description": "Modelos de machine learning e deep learning adaptados às suas necessidades específicas."
+      },
+      "analysis": {
+        "title": "Análise de Dados",
+        "description": "Análise avançada e otimização de pipelines de dados para melhores insights."
+      },
+      "implementation": {
+        "title": "Implementação de IA",
+        "description": "Integração perfeita de soluções de IA em seus sistemas existentes."
+      },
+      "nlp": {
+        "title": "Processamento de Linguagem Natural",
+        "description": "Análise de texto, chatbots e soluções de compreensão de linguagem."
+      },
+      "ethical": {
+        "title": "Consultoria de IA Ética",
+        "description": "Garantindo o uso responsável da IA e conformidade regulatória."
+      },
+      "data": {
+        "title": "Gestão de Dados",
+        "description": "Serviços abrangentes de coleta, limpeza e pré-processamento de dados."
+      },
+      "training": {
+        "title": "Treinamento e Suporte em IA",
+        "description": "Educação da equipe e manutenção contínua de sistemas de IA."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Nosso Portfólio",
+    "subtitle": "Descubra como ajudamos empresas de diversos setores a alavancar a IA para crescimento",
+    "industries": {
+      "healthcare": {
+        "name": "Saúde",
+        "projects": [
+          "Previsão de Diagnósticos",
+          "Análise de Imagens Médicas",
+          "Otimização de Recursos de Saúde"
+        ]
+      },
+      "finance": {
+        "name": "Finanças",
+        "projects": [
+          "Detecção de Fraude",
+          "Avaliação de Risco",
+          "Trading Algorítmico"
+        ]
+      },
+      "manufacturing": {
+        "name": "Manufatura",
+        "projects": [
+          "Manutenção Preditiva",
+          "Controle de Qualidade",
+          "Otimização da Cadeia de Suprimentos"
+        ]
+      },
+      "retail": {
+        "name": "Varejo",
+        "projects": [
+          "Segmentação de Clientes",
+          "Previsão de Demanda",
+          "Sistemas de Recomendação"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Pronto para transformar seu negócio com IA? Entre em contato com nossa equipe de especialistas.",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "send": "Enviar Mensagem"
+    },
+    "info": {
+      "email": {
+        "label": "E-mail",
+        "value": "serbelcloud@gmail.com"
+      },
+      "phone": {
+        "label": "Telefone",
+        "value": "+573157597079"
+      },
+      "location": {
+        "label": "Localização",
+        "value": "Colômbia"
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "subtitle": "Bem-vindo à nossa consultoria de IA, onde inovação encontra expertise para impulsionar resultados transformadores para seu negócio.",
+    "sergio": {
+      "name": "Sergio Beltrán",
+      "intro": "Com mais de uma década de experiência na indústria de tecnologia, Sergio traz vasto conhecimento em tecnologias cloud, ciência de dados e engenharia de dados."
+    },
+    "experience": {
+      "title": "Experiência Profissional",
+      "aws": {
+        "title": "Arquiteto de Soluções ML Strategy na Amazon Web Services",
+        "description": "Guiou importantes clientes AWS no desenvolvimento de suas jornadas de machine learning e liderou eventos multinacionais na América Latina, EUA e Europa."
+      },
+      "datavail": {
+        "title": "Desenvolvedor AWS na Datavail",
+        "description": "Liderando projetos de dados com AWS Redshift, SageMaker, Databricks e soluções IoT para clientes empresariais."
+      },
+      "vozip": {
+        "title": "Cientista de Dados na Vozip Store SAS",
+        "description": "Realizou análise exploratória de dados e construiu pipelines para previsão de abandono de clientes."
+      },
+      "intelbras": {
+        "title": "Analista de Dados na Intelbras",
+        "description": "Criou e manteve dashboards para líderes de vendas e forneceu assistência técnica."
+      },
+      "quadritech": {
+        "title": "Engenheiro de Dados na Quadritech",
+        "description": "Desenvolveu soluções IoT e aplicações full-stack usando Python e serviços AWS."
+      }
+    },
+    "education": {
+      "title": "Educação",
+      "degree": "Bacharel em Engenharia Mecatrônica pela Universidad Autónoma de Bucaramanga"
+    },
+    "leadership": {
+      "title": "Liderança e Inovação",
+      "leadership1": "Liderou a Área de Profundidade AI/ML da LATAM na AWS",
+      "leadership2": "Dirigiu o Programa AWS Partner Blackbelt",
+      "leadership3": "Especialista em frameworks MLOps e Arquitetura de Soluções AWS"
+    },
+    "mission": {
+      "title": "Nossa Missão",
+      "description": "Capacitar empresas desbloqueando todo o potencial da IA e tecnologias cloud através de orientação especializada e soluções inovadoras."
+    }
+  }
+}

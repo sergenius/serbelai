@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "title": "Transform Your Business with AI Solutions",
+    "subtitle": "Unlock the power of artificial intelligence with our expert consulting services. We help businesses innovate, optimize, and scale through cutting-edge AI solutions.",
+    "getStarted": "Get Started",
+    "viewPortfolio": "View Portfolio"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive AI solutions tailored to transform your business and drive innovation",
+    "items": {
+      "strategy": {
+        "title": "AI Strategy Development",
+        "description": "Custom AI roadmaps aligned with your business goals and industry requirements."
+      },
+      "custom": {
+        "title": "Custom AI Solutions",
+        "description": "Tailored machine learning and deep learning models for your specific needs."
+      },
+      "analysis": {
+        "title": "Data Analysis",
+        "description": "Advanced analytics and data pipeline optimization for better insights."
+      },
+      "implementation": {
+        "title": "AI Implementation",
+        "description": "Seamless integration of AI solutions into your existing systems."
+      },
+      "nlp": {
+        "title": "Natural Language Processing",
+        "description": "Text analysis, chatbots, and language understanding solutions."
+      },
+      "ethical": {
+        "title": "Ethical AI Consulting",
+        "description": "Ensuring responsible AI use and compliance with regulations."
+      },
+      "data": {
+        "title": "Data Management",
+        "description": "Comprehensive data collection, cleaning, and preprocessing services."
+      },
+      "training": {
+        "title": "AI Training & Support",
+        "description": "Staff education and ongoing maintenance of AI systems."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Discover how we've helped businesses across various industries leverage AI for growth",
+    "industries": {
+      "healthcare": {
+        "name": "Healthcare",
+        "projects": [
+          "Patient Diagnosis Prediction",
+          "Medical Image Analysis",
+          "Healthcare Resource Optimization"
+        ]
+      },
+      "finance": {
+        "name": "Finance",
+        "projects": [
+          "Fraud Detection",
+          "Risk Assessment",
+          "Algorithmic Trading"
+        ]
+      },
+      "manufacturing": {
+        "name": "Manufacturing",
+        "projects": [
+          "Predictive Maintenance",
+          "Quality Control",
+          "Supply Chain Optimization"
+        ]
+      },
+      "retail": {
+        "name": "Retail",
+        "projects": [
+          "Customer Segmentation",
+          "Demand Forecasting",
+          "Recommendation Systems"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready to transform your business with AI? Get in touch with our team of experts.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "serbelcloud@gmail.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+573157597079"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Colombia"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Welcome to our AI consulting firm, where innovation meets expertise to drive transformative results for your business.",
+    "sergio": {
+      "name": "Sergio Beltrán",
+      "intro": "With over a decade of experience in the technology industry, Sergio brings a wealth of knowledge in cloud technologies, data science, and data engineering."
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "aws": {
+        "title": "ML Strategy Specialist Solution Architect at Amazon Web Services",
+        "description": "Guided major AWS customers in developing their machine learning journeys and led multi-customer events across Latin America, the USA, and Europe."
+      },
+      "datavail": {
+        "title": "AWS Developer at Datavail",
+        "description": "Leading data projects involving AWS Redshift, SageMaker, Databricks, and IoT solutions for enterprise clients."
+      },
+      "vozip": {
+        "title": "Data Scientist at Vozip Store SAS",
+        "description": "Performed exploratory data analysis and built data pipelines for customer churn prediction and forecasting."
+      },
+      "intelbras": {
+        "title": "Data Analyst at Intelbras",
+        "description": "Created and maintained dashboards for sales leaders and provided technical assistance."
+      },
+      "quadritech": {
+        "title": "Data Engineer at Quadritech",
+        "description": "Developed IoT solutions and full-stack applications using Python and AWS services."
+      }
+    },
+    "education": {
+      "title": "Education",
+      "degree": "Bachelor's degree in Mechatronics Engineering from Universidad Autónoma de Bucaramanga"
+    },
+    "leadership": {
+      "title": "Leadership & Innovation",
+      "leadership1": "Led the LATAM AI/ML Area of Depth (AoD) at AWS",
+      "leadership2": "Headed the AWS Partner Program Blackbelt",
+      "leadership3": "Expert in MLOps frameworks and AWS Solutions Architecture"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower businesses by unlocking the full potential of AI and cloud technologies through expert guidance and innovative solutions."
+    }
+  }
+}

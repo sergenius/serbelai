@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "contactUs": "Contáctanos"
+  },
+  "hero": {
+    "title": "Transforma tu Negocio con Soluciones de IA",
+    "subtitle": "Desbloquea el poder de la inteligencia artificial con nuestros servicios de consultoría experta. Ayudamos a las empresas a innovar, optimizar y escalar a través de soluciones de IA de vanguardia.",
+    "getStarted": "Comenzar",
+    "viewPortfolio": "Ver Portafolio"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones integrales de IA diseñadas para transformar tu negocio e impulsar la innovación",
+    "items": {
+      "strategy": {
+        "title": "Desarrollo de Estrategia IA",
+        "description": "Hojas de ruta de IA personalizadas alineadas con tus objetivos empresariales."
+      },
+      "custom": {
+        "title": "Soluciones IA Personalizadas",
+        "description": "Modelos de machine learning y deep learning adaptados a tus necesidades específicas."
+      },
+      "analysis": {
+        "title": "Análisis de Datos",
+        "description": "Analítica avanzada y optimización de pipelines de datos para mejores insights."
+      },
+      "implementation": {
+        "title": "Implementación de IA",
+        "description": "Integración perfecta de soluciones de IA en tus sistemas existentes."
+      },
+      "nlp": {
+        "title": "Procesamiento de Lenguaje Natural",
+        "description": "Análisis de texto, chatbots y soluciones de comprensión del lenguaje."
+      },
+      "ethical": {
+        "title": "Consultoría de IA Ética",
+        "description": "Garantizando el uso responsable de la IA y el cumplimiento normativo."
+      },
+      "data": {
+        "title": "Gestión de Datos",
+        "description": "Servicios integrales de recolección, limpieza y preprocesamiento de datos."
+      },
+      "training": {
+        "title": "Capacitación y Soporte en IA",
+        "description": "Educación del personal y mantenimiento continuo de sistemas de IA."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Nuestro Portafolio",
+    "subtitle": "Descubre cómo hemos ayudado a empresas de diversos sectores a aprovechar la IA para su crecimiento",
+    "industries": {
+      "healthcare": {
+        "name": "Salud",
+        "projects": [
+          "Predicción de Diagnósticos",
+          "Análisis de Imágenes Médicas",
+          "Optimización de Recursos Sanitarios"
+        ]
+      },
+      "finance": {
+        "name": "Finanzas",
+        "projects": [
+          "Detección de Fraude",
+          "Evaluación de Riesgos",
+          "Trading Algorítmico"
+        ]
+      },
+      "manufacturing": {
+        "name": "Manufactura",
+        "projects": [
+          "Mantenimiento Predictivo",
+          "Control de Calidad",
+          "Optimización de Cadena de Suministro"
+        ]
+      },
+      "retail": {
+        "name": "Retail",
+        "projects": [
+          "Segmentación de Clientes",
+          "Pronóstico de Demanda",
+          "Sistemas de Recomendación"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Listo para transformar tu negocio con IA? Ponte en contacto con nuestro equipo de expertos.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje"
+    },
+    "info": {
+      "email": {
+        "label": "Correo",
+        "value": "serbelcloud@gmail.com"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "value": "+573157597079"
+      },
+      "location": {
+        "label": "Ubicación",
+        "value": "Colombia"
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Bienvenido a nuestra firma de consultoría en IA, donde la innovación se une a la experiencia para impulsar resultados transformadores para tu negocio.",
+    "sergio": {
+      "name": "Sergio Beltrán",
+      "intro": "Con más de una década de experiencia en la industria tecnológica, Sergio aporta un amplio conocimiento en tecnologías cloud, ciencia de datos e ingeniería de datos."
+    },
+    "experience": {
+      "title": "Experiencia Profesional",
+      "aws": {
+        "title": "Arquitecto de Soluciones ML Strategy en Amazon Web Services",
+        "description": "Guió a importantes clientes de AWS en el desarrollo de sus estrategias de machine learning y lideró eventos multinacionales en América Latina, EE.UU. y Europa."
+      },
+      "datavail": {
+        "title": "Desarrollador AWS en Datavail",
+        "description": "Liderando proyectos de datos con AWS Redshift, SageMaker, Databricks y soluciones IoT para clientes empresariales."
+      },
+      "vozip": {
+        "title": "Científico de Datos en Vozip Store SAS",
+        "description": "Realizó análisis exploratorio de datos y construyó pipelines para predicción de abandono de clientes."
+      },
+      "intelbras": {
+        "title": "Analista de Datos en Intelbras",
+        "description": "Creó y mantuvo dashboards para líderes de ventas y brindó asistencia técnica."
+      },
+      "quadritech": {
+        "title": "Ingeniero de Datos en Quadritech",
+        "description": "Desarrolló soluciones IoT y aplicaciones full-stack usando Python y servicios AWS."
+      }
+    },
+    "education": {
+      "title": "Educación",
+      "degree": "Ingeniero en Mecatrónica de la Universidad Autónoma de Bucaramanga"
+    },
+    "leadership": {
+      "title": "Liderazgo e Innovación",
+      "leadership1": "Dirigió el Área de Profundidad AI/ML de LATAM en AWS",
+      "leadership2": "Lideró el Programa AWS Partner Blackbelt",
+      "leadership3": "Experto en frameworks MLOps y Arquitectura de Soluciones AWS"
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Potenciar empresas desbloqueando todo el potencial de la IA y las tecnologías cloud a través de guía experta y soluciones innovadoras."
+    }
+  }
+}
