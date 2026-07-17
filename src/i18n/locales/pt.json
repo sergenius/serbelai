@@ -96,7 +96,10 @@
       "name": "Nome",
       "email": "E-mail",
       "message": "Mensagem",
-      "send": "Enviar Mensagem"
+      "send": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "success": "Obrigado! Sua mensagem foi enviada com sucesso.",
+      "error": "Algo deu errado. Tente novamente ou envie um e-mail diretamente."
     },
     "info": {
       "email": {
