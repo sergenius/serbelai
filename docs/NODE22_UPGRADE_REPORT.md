@@ -247,3 +247,28 @@ Move `@anthropic-ai/sdk` usage to server-only (can remain a root dependency, but
 **Moving to Node 22 is recommended and should be done first** — it is required by modern Vite and unblocks the rest of the modernization path. The project is not blocked by Node itself; it is blocked by missing version pins, a broken server runner, a critical API-key exposure, and multi-major dependency lag from the original Bolt starter.
 
 Suggested sequence: **Node 22 pin → security/API proxy fix → cleanup duplicates → Vite/TS toolchain → framework majors in isolated PRs.**
+
+---
+
+## 9. Implementation status (this PR)
+
+Completed in this branch:
+
+- [x] Pin Node 22 via `engines` + `.nvmrc`
+- [x] Replace broken `ts-node` server script with `tsx`
+- [x] Proxy Anthropic through Express (`ANTHROPIC_API_KEY`); client uses `VITE_API_URL/api/chat`
+- [x] Remove legacy `emailjs-com` + unused `src/utils/email.ts`
+- [x] Align `.env.example`
+- [x] Remove debug `Test Header` / console noise from `App.tsx`
+- [x] Replace deprecated `onKeyPress` with `onKeyDown` in Chatbot
+- [x] Upgrade Vite 5 → 6, TypeScript → 5.9, Anthropic SDK → current, ESLint hooks off RC
+- [x] Add `typecheck` script
+
+Deferred (separate PRs):
+
+- [ ] React 19
+- [ ] Tailwind 4
+- [ ] Express 5
+- [ ] i18next / framer-motion / lucide majors
+- [ ] Vite 8 + TypeScript 7
+- [ ] CI workflow

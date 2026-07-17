@@ -56,7 +56,11 @@ export const Portfolio: React.FC = () => {
                     {t(`portfolio.industries.${industry.translationKey}.name`)}
                   </h3>
                   <ul className="text-gray-200 space-y-1">
-                    {t(`portfolio.industries.${industry.translationKey}.projects`, { returnObjects: true }).map((project: string, idx: number) => (
+                    {(
+                      t(`portfolio.industries.${industry.translationKey}.projects`, {
+                        returnObjects: true,
+                      }) as string[]
+                    ).map((project, idx) => (
                       <li key={idx}>{project}</li>
                     ))}
                   </ul>
