@@ -5,8 +5,9 @@
 [build.environment]
   NODE_VERSION = "22"
 
-# SPA fallback so deep links serve the Vite app
+# SPA fallback for client routes — GET only so Netlify Forms POSTs still work
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  conditions = {Method = ["GET"]}
