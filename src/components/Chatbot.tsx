@@ -38,7 +38,7 @@ export const Chatbot: React.FC = () => {
     try {
       const response = await getChatbotResponse(userMessage);
       setMessages(prev => [...prev, { type: 'bot', text: response }]);
-    } catch (error) {
+    } catch {
       setMessages(prev => [...prev, { type: 'bot', text: t('chatbot.error') }]);
     } finally {
       setIsLoading(false);
@@ -113,7 +113,7 @@ export const Chatbot: React.FC = () => {
                   onChange={(e) => setInput(e.target.value)}
                   placeholder={t('chatbot.placeholder')}
                   className="flex-1 p-2 border rounded-md focus:outline-none focus:border-primary"
-                  onKeyPress={(e) => e.key === 'Enter' && handleSend()}
+                  onKeyDown={(e) => e.key === 'Enter' && handleSend()}
                   disabled={isLoading}
                 />
                 <button

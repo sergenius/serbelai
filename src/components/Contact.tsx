@@ -37,13 +37,13 @@ export const Contact: React.FC = () => {
     }
     
     try {
-      const result = await emailjs.sendForm(
+      await emailjs.sendForm(
         serviceId,
         templateId,
         e.currentTarget,
         publicKey
       );
-      
+
       setStatus('success');
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {

@@ -19,6 +19,9 @@ yarn-error.log*
 /build
 /dist
 
+# typescript
+*.tsbuildinfo
+
 # misc
 .DS_Store
 *.pem
