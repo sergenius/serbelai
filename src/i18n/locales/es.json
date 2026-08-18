@@ -160,5 +160,10 @@
       "title": "Nuestra Misión",
       "description": "Potenciar empresas desbloqueando todo el potencial de la IA y las tecnologías cloud a través de guía experta y soluciones innovadoras."
     }
+  },
+  "chatbot": {
+    "welcome": "¡Hola! ¿Cómo puedo ayudarte hoy con consultoría de IA?",
+    "error": "Lo siento, no pude procesar tu solicitud. Inténtalo de nuevo.",
+    "placeholder": "Escribe tu mensaje..."
   }
 }

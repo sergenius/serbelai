@@ -160,5 +160,10 @@
       "title": "Our Mission",
       "description": "To empower businesses by unlocking the full potential of AI and cloud technologies through expert guidance and innovative solutions."
     }
+  },
+  "chatbot": {
+    "welcome": "Hello! How can I help you with AI consulting today?",
+    "error": "Sorry, I couldn't process your request. Please try again.",
+    "placeholder": "Type your message..."
   }
 }
