@@ -165,5 +165,97 @@
     "welcome": "Bonjour ! Comment puis-je vous aider aujourd'hui avec le conseil en IA ?",
     "error": "Désolé, je n'ai pas pu traiter votre demande. Veuillez réessayer.",
     "placeholder": "Écrivez votre message..."
+  },
+  "landing": {
+    "nav": {
+      "pricing": "Offres",
+      "cta": "Parler maintenant"
+    },
+    "hero": {
+      "badge": "IA au service du business",
+      "title": "Plus de ventes. Moins de coûts. Avec l'IA.",
+      "subtitle": "Chatbots, automatisation et analytics prêts à l'emploi. Vous choisissez l'offre. Nous livrons.",
+      "cta": "Réservez un diagnostic gratuit",
+      "ctaSecondary": "Voir les tarifs",
+      "imageAlt": "Équipe déployant des solutions d'IA"
+    },
+    "stats": {
+      "clients": { "value": "+40", "label": "projets" },
+      "delivery": { "value": "4-6 sem", "label": "délai typique" },
+      "roi": { "value": "3x", "label": "retour moyen" }
+    },
+    "products": {
+      "title": "Ce que nous livrons",
+      "subtitle": "Trois produits. Impact immédiat.",
+      "items": {
+        "assistant": {
+          "title": "Assistants et chatbots",
+          "caption": "Disponibles 24/7 sur WhatsApp, le web et votre CRM."
+        },
+        "automation": {
+          "title": "Automatisation",
+          "caption": "Tâches répétitives, plus de copier-coller."
+        },
+        "insights": {
+          "title": "Prédiction et data",
+          "caption": "Demande, fraude et tableaux de bord qui décident."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Tarifs clairs",
+      "subtitle": "Exemples d'investissement. Sans petites lignes.",
+      "popular": "Le plus choisi",
+      "cta": "Je veux cette offre",
+      "plans": {
+        "kickoff": {
+          "name": "Diagnostic",
+          "price": "USD 790",
+          "period": "session + feuille de route",
+          "features": [
+            "Carte des opportunités IA",
+            "Priorités sur 90 jours",
+            "1 atelier exécutif"
+          ]
+        },
+        "build": {
+          "name": "Solution",
+          "price": "USD 4 900",
+          "period": "projet clé en main",
+          "features": [
+            "Chatbot ou automatisation",
+            "Intégré à votre opération",
+            "Livraison en 4–6 semaines",
+            "Formation de l'équipe"
+          ]
+        },
+        "scale": {
+          "name": "Partenaire",
+          "price": "à partir de USD 9 900",
+          "period": "stratégie + mise en œuvre",
+          "features": [
+            "Feuille de route et gouvernance IA",
+            "Plusieurs cas d'usage",
+            "Support continu",
+            "Accompagnement exécutif"
+          ]
+        }
+      }
+    },
+    "cases": {
+      "title": "Des résultats, pas des promesses",
+      "items": {
+        "retail": { "metric": "+32%", "label": "conversion retail" },
+        "ops": { "metric": "-40%", "label": "temps opérationnel" },
+        "support": { "metric": "24/7", "label": "support automatisé" }
+      }
+    },
+    "cta": {
+      "title": "Démarrez cette semaine.",
+      "subtitle": "15 minutes sur WhatsApp. Nous vous indiquons l'offre adaptée et le délai.",
+      "whatsapp": "Écrire sur WhatsApp",
+      "formTitle": "Ou laissez vos coordonnées",
+      "submit": "Contactez-moi"
+    }
   }
 }

@@ -165,5 +165,97 @@
     "welcome": "Hello! How can I help you with AI consulting today?",
     "error": "Sorry, I couldn't process your request. Please try again.",
     "placeholder": "Type your message..."
+  },
+  "landing": {
+    "nav": {
+      "pricing": "Plans",
+      "cta": "Talk now"
+    },
+    "hero": {
+      "badge": "Business-ready AI",
+      "title": "More sales. Lower costs. With AI.",
+      "subtitle": "Chatbots, automation, and analytics ready to deploy. You pick a plan. We ship it.",
+      "cta": "Book a free diagnostic",
+      "ctaSecondary": "See pricing",
+      "imageAlt": "Team implementing AI solutions"
+    },
+    "stats": {
+      "clients": { "value": "+40", "label": "projects" },
+      "delivery": { "value": "4-6 wks", "label": "typical delivery" },
+      "roi": { "value": "3x", "label": "average return" }
+    },
+    "products": {
+      "title": "What we ship",
+      "subtitle": "Three products. Immediate impact.",
+      "items": {
+        "assistant": {
+          "title": "Assistants & chatbots",
+          "caption": "24/7 coverage on WhatsApp, web, and your CRM."
+        },
+        "automation": {
+          "title": "Automation",
+          "caption": "Repetitive work, zero copy-paste."
+        },
+        "insights": {
+          "title": "Prediction & data",
+          "caption": "Demand, fraud, and dashboards that decide."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Clear pricing",
+      "subtitle": "Investment examples. No fine print.",
+      "popular": "Most chosen",
+      "cta": "I want this plan",
+      "plans": {
+        "kickoff": {
+          "name": "Diagnostic",
+          "price": "USD 790",
+          "period": "session + roadmap",
+          "features": [
+            "AI opportunity map",
+            "90-day priorities",
+            "1 executive workshop"
+          ]
+        },
+        "build": {
+          "name": "Solution",
+          "price": "USD 4,900",
+          "period": "turnkey project",
+          "features": [
+            "Chatbot or automation",
+            "Integrated into your ops",
+            "Delivered in 4–6 weeks",
+            "Team training included"
+          ]
+        },
+        "scale": {
+          "name": "Partner",
+          "price": "from USD 9,900",
+          "period": "strategy + implementation",
+          "features": [
+            "AI roadmap and governance",
+            "Multiple use cases",
+            "Ongoing support",
+            "Executive partnership"
+          ]
+        }
+      }
+    },
+    "cases": {
+      "title": "Results, not promises",
+      "items": {
+        "retail": { "metric": "+32%", "label": "retail conversion" },
+        "ops": { "metric": "-40%", "label": "ops time" },
+        "support": { "metric": "24/7", "label": "automated support" }
+      }
+    },
+    "cta": {
+      "title": "Start this week.",
+      "subtitle": "15 minutes on WhatsApp. We’ll tell you which plan fits and how long it takes.",
+      "whatsapp": "Message on WhatsApp",
+      "formTitle": "Or leave your details",
+      "submit": "Contact me"
+    }
   }
 }

@@ -2,7 +2,13 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Globe } from 'lucide-react';
 
-export const LanguageSwitcher: React.FC = () => {
+type LanguageSwitcherProps = {
+  variant?: 'light' | 'dark';
+};
+
+export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
+  variant = 'light',
+}) => {
   const { i18n } = useTranslation();
 
   const languages = [
@@ -12,9 +18,14 @@ export const LanguageSwitcher: React.FC = () => {
     { code: 'fr', name: 'Français' }
   ];
 
+  const triggerClass =
+    variant === 'dark'
+      ? 'flex items-center gap-2 text-white hover:text-primary-light transition-colors'
+      : 'flex items-center gap-2 text-secondary hover:text-primary transition-colors';
+
   return (
     <div className="relative group">
-      <button className="flex items-center gap-2 text-secondary hover:text-primary transition-colors">
+      <button className={triggerClass}>
         <Globe className="w-5 h-5" />
         <span className="hidden md:inline">
           {languages.find(
