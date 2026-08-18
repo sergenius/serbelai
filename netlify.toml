@@ -5,9 +5,23 @@
 [build.environment]
   NODE_VERSION = "22"
 
-# SPA fallback for client routes — GET only so Netlify Forms POSTs still work
+# Explicit SPA routes first. Do not use Method conditions: classic
+# Netlify redirects drop the whole rule, which 404s /landing.
+[[redirects]]
+  from = "/landing"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/landing/"
+  to = "/index.html"
+  status = 200
+  force = true
+
+# Existing files (including POST / for Netlify Forms) keep priority
+# because force is not set on this splat.
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  conditions = {Method = ["GET"]}
