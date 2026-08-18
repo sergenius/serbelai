@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "À propos",
+    "contact": "Contact",
+    "contactUs": "Nous contacter"
+  },
+  "hero": {
+    "title": "Transformez votre entreprise avec des solutions d'IA",
+    "subtitle": "Libérez la puissance de l'intelligence artificielle grâce à nos services de conseil experts. Nous aidons les entreprises à innover, optimiser et se développer avec des solutions d'IA de pointe.",
+    "getStarted": "Commencer",
+    "viewPortfolio": "Voir le portfolio"
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Des solutions d'IA complètes, conçues pour transformer votre entreprise et stimuler l'innovation",
+    "items": {
+      "strategy": {
+        "title": "Élaboration de stratégie IA",
+        "description": "Feuilles de route IA personnalisées, alignées sur vos objectifs métier et les exigences de votre secteur."
+      },
+      "custom": {
+        "title": "Solutions IA sur mesure",
+        "description": "Modèles de machine learning et de deep learning adaptés à vos besoins spécifiques."
+      },
+      "analysis": {
+        "title": "Analyse de données",
+        "description": "Analytique avancée et optimisation des pipelines de données pour de meilleurs insights."
+      },
+      "implementation": {
+        "title": "Mise en œuvre de l'IA",
+        "description": "Intégration fluide des solutions d'IA dans vos systèmes existants."
+      },
+      "nlp": {
+        "title": "Traitement du langage naturel",
+        "description": "Analyse de texte, chatbots et solutions de compréhension du langage."
+      },
+      "ethical": {
+        "title": "Conseil en IA éthique",
+        "description": "Garantir une utilisation responsable de l'IA et la conformité réglementaire."
+      },
+      "data": {
+        "title": "Gestion des données",
+        "description": "Services complets de collecte, de nettoyage et de prétraitement des données."
+      },
+      "training": {
+        "title": "Formation et support IA",
+        "description": "Formation des équipes et maintenance continue des systèmes d'IA."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Notre portfolio",
+    "subtitle": "Découvrez comment nous avons aidé des entreprises de divers secteurs à tirer parti de l'IA pour croître",
+    "industries": {
+      "healthcare": {
+        "name": "Santé",
+        "projects": [
+          "Prédiction de diagnostics patients",
+          "Analyse d'images médicales",
+          "Optimisation des ressources de santé"
+        ]
+      },
+      "finance": {
+        "name": "Finance",
+        "projects": [
+          "Détection de fraude",
+          "Évaluation des risques",
+          "Trading algorithmique"
+        ]
+      },
+      "manufacturing": {
+        "name": "Industrie",
+        "projects": [
+          "Maintenance prédictive",
+          "Contrôle qualité",
+          "Optimisation de la chaîne d'approvisionnement"
+        ]
+      },
+      "retail": {
+        "name": "Commerce de détail",
+        "projects": [
+          "Segmentation clients",
+          "Prévision de la demande",
+          "Systèmes de recommandation"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Prêt à transformer votre entreprise avec l'IA ? Contactez notre équipe d'experts.",
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Message",
+      "send": "Envoyer le message",
+      "sending": "Envoi...",
+      "success": "Merci ! Votre message a été envoyé avec succès.",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement."
+    },
+    "info": {
+      "email": {
+        "label": "E-mail",
+        "value": "serbelcloud@gmail.com"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "value": "+573157597079"
+      },
+      "location": {
+        "label": "Localisation",
+        "value": "Colombie"
+      }
+    }
+  },
+  "about": {
+    "title": "À propos de nous",
+    "subtitle": "Bienvenue dans notre cabinet de conseil en IA, où l'innovation rencontre l'expertise pour générer des résultats transformateurs pour votre entreprise.",
+    "sergio": {
+      "name": "Sergio Beltrán",
+      "intro": "Fort de plus de dix ans d'expérience dans l'industrie technologique, Sergio apporte une solide expertise en technologies cloud, science des données et ingénierie des données."
+    },
+    "experience": {
+      "title": "Expérience professionnelle",
+      "aws": {
+        "title": "Architecte de solutions ML Strategy chez Amazon Web Services",
+        "description": "A accompagné d'importants clients AWS dans le développement de leur parcours en machine learning et a dirigé des événements multi-clients en Amérique latine, aux États-Unis et en Europe."
+      },
+      "datavail": {
+        "title": "Développeur AWS chez Datavail",
+        "description": "Direction de projets data impliquant AWS Redshift, SageMaker, Databricks et des solutions IoT pour des clients entreprise."
+      },
+      "vozip": {
+        "title": "Data scientist chez Vozip Store SAS",
+        "description": "Réalisation d'analyses exploratoires de données et construction de pipelines pour la prédiction du churn client et la prévision."
+      },
+      "intelbras": {
+        "title": "Analyste de données chez Intelbras",
+        "description": "Création et maintenance de tableaux de bord pour les responsables commerciaux et assistance technique."
+      },
+      "quadritech": {
+        "title": "Ingénieur data chez Quadritech",
+        "description": "Développement de solutions IoT et d'applications full-stack avec Python et les services AWS."
+      }
+    },
+    "education": {
+      "title": "Formation",
+      "degree": "Diplôme d'ingénieur en mécatronique de l'Universidad Autónoma de Bucaramanga"
+    },
+    "leadership": {
+      "title": "Leadership et innovation",
+      "leadership1": "A dirigé l'Area of Depth (AoD) AI/ML LATAM chez AWS",
+      "leadership2": "A dirigé le programme AWS Partner Blackbelt",
+      "leadership3": "Expert en frameworks MLOps et en architecture de solutions AWS"
+    },
+    "mission": {
+      "title": "Notre mission",
+      "description": "Donner aux entreprises les moyens de libérer tout le potentiel de l'IA et des technologies cloud grâce à un accompagnement expert et des solutions innovantes."
+    }
+  },
+  "chatbot": {
+    "welcome": "Bonjour ! Comment puis-je vous aider aujourd'hui avec le conseil en IA ?",
+    "error": "Désolé, je n'ai pas pu traiter votre demande. Veuillez réessayer.",
+    "placeholder": "Écrivez votre message..."
+  }
+}

@@ -160,5 +160,10 @@
       "title": "Nossa Missão",
       "description": "Capacitar empresas desbloqueando todo o potencial da IA e tecnologias cloud através de orientação especializada e soluções inovadoras."
     }
+  },
+  "chatbot": {
+    "welcome": "Olá! Como posso ajudar você hoje com consultoria de IA?",
+    "error": "Desculpe, não consegui processar sua solicitação. Tente novamente.",
+    "placeholder": "Digite sua mensagem..."
   }
 }

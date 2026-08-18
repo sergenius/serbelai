@@ -8,14 +8,19 @@ export const LanguageSwitcher: React.FC = () => {
   const languages = [
     { code: 'en', name: 'English' },
     { code: 'es', name: 'Español' },
-    { code: 'pt', name: 'Português' }
+    { code: 'pt', name: 'Português' },
+    { code: 'fr', name: 'Français' }
   ];
 
   return (
     <div className="relative group">
       <button className="flex items-center gap-2 text-secondary hover:text-primary transition-colors">
         <Globe className="w-5 h-5" />
-        <span className="hidden md:inline">{languages.find(lang => lang.code === i18n.language)?.name}</span>
+        <span className="hidden md:inline">
+          {languages.find(
+            (lang) => i18n.resolvedLanguage === lang.code || i18n.language.startsWith(lang.code)
+          )?.name}
+        </span>
       </button>
       <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
         {languages.map((lang) => (
